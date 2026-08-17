@@ -1,29 +1,11 @@
-AWS CloudFront CDN with Node.js, EC2 & S3
-The project demonstrates how CloudFront can distribute application traffic across multiple origins using path-based routing, while CloudWatch is used for monitoring and CDN logging.
+# nodejs-headers
 
-**Architecture**
-                         Users
-                           │
-                           ▼
-                    ┌─────────────┐
-                    │ CloudFront  │
-                    │     CDN     │
-                    └──────┬──────┘
-                           │
-                    Path-Based Routing
-                     ┌─────┴─────┐
-                     │           │
-                 /api/*      /static/*
-                     │           │
-                     ▼           ▼
-              ┌──────────┐  ┌──────────┐
-              │   EC2    │  │    S3    │
-              │ Node.js  │  │  Static  │
-              │   App    │  │ Content  │
-              └──────────┘  └──────────┘
-                     │
-                     ▼
-              ┌──────────────┐
-              │  CloudWatch  │
-              │ Logs/Monitor │
-              └──────────────┘
+This application will give the headers in response only and just for demo purpose for youtube channel.
+
+api list
+
+- /
+- /1m
+- /2m
+- /user
+- /customheader
