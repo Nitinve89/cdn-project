@@ -4,16 +4,16 @@ const app = express()
 const port = 3000
 
 const users = [
-    { id: 1, name: "Gaurav" },
-    { id: 2, name: "Saurav" },
-    { id: 3, ame: "Hinal" },
-    { id: 4, name: "Hiral" },
+    { id: 1, name: "Nitin" },
+    { id: 2, name: "Surya" },
+    { id: 3, ame: "Anushka" },
+    { id: 4, name: "Nensi" },
     { id: 5, name: "Yash" },
     { id: 6, name: "Ram" },
     { id: 7, name: "Shayam" },
     { id: 8, name: "Pawan" },
     { id: 9, name: "Ankit" },
-    { id: 10, name: "Nitin" },
+    { id: 10, name: "Abhishek" },
     { id: 11, name: "Piyush" },
     { id: 12, name: "Shivam" },
     { id: 13, name: "Tushar" },
